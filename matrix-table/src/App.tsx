@@ -22,7 +22,7 @@ function AppContent() {
   return (
     <div className='p-4'>
       <h1 className='text-xl font-bold mb-4 text-center'>Table</h1>
-      <div className='flex gap-2 justify-center mb-4 items-end'>
+      <div className='flex gap-2 justify-center mb-4 items-end md:flex-nowrap flex-wrap'>
         <Input
           id='lbl1'
           type='number'

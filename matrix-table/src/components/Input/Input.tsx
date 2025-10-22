@@ -8,7 +8,7 @@ interface IInput extends DetailedHTMLProps<InputHTMLAttributes<HTMLInputElement>
 
 export const Input = ({ label, className, ...props }: IInput) => {
   return (
-    <div className='flex flex-col gap-1'>
+    <div className='flex flex-col gap-1 w-full'>
       {label && (
         <label
           htmlFor={props.id}
